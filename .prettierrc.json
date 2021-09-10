@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"singleQuote": true,
 	"useTabs": true,
 	"tabWidth": 2,
@@ -6,3 +7,12 @@
 	"jsxSingleQuote": true,
 	"arrowParens": "avoid"
 }
+=======
+    "singleQuote": true,
+    "useTabs": true,
+    "tabWidth": 1,
+    "semi": false,
+    "jsxSingleQuote": true,
+    "arrowParens": "avoid"
+}
+>>>>>>> 7ece213fe30ae90a9dd05ad961f3c1b4df6d14c5
