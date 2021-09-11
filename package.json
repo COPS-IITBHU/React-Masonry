@@ -9,6 +9,21 @@
 		"format": "prettier --write",
 		"lint-and-fix": "eslint . --ext .ts --fix"
 	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.{js,jsx,ts,tsx}": [
+			"prettier --write",
+			"eslint --fix",
+			"git add"
+		],
+		"*.{json,md,html}": [
+			"prettier --write"
+		]
+	},
 	"dependencies": {
 		"@next/eslint-plugin-next": "^11.1.2",
 		"next": "11.1.2",
