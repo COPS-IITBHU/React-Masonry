@@ -27,6 +27,7 @@
 	},
 	"dependencies": {
 		"@next/eslint-plugin-next": "^11.1.2",
+		"@react-hook/window-size": "^3.0.7",
 		"next": "11.1.2",
 		"react": "17.0.2",
 		"react-dom": "17.0.2",
